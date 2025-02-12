@@ -44,7 +44,46 @@ nav .right ul li a {
     text-decoration: none;
     padding: 5px 10px;
 }
+.skills {
+    margin-top: 150px; 
+    max-width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    color: lightseagreen;
+}
 
+
+.skills table {
+    width: 100%; 
+    max-width: 500px; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    background: #f8f9fa; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.skills th, .skills td {
+    padding: 12px 15px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.skills th {
+    background: #5278a0;
+    color: white; 
+    text-align: center;
+}
+.skills tr:hover {
+    background: #e9ecef; 
+}
+
+.skills td {
+    font-weight: 500; 
+    color: #333;
+}
 
 button {
     border: none;
